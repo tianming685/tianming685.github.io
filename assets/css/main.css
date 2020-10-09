@@ -157,7 +157,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #999900;
 		color: #000000;
 	}
 
@@ -2350,7 +2350,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border: 0;
+		border: solid 2px grey;
 		display: inline-block;
 		position: relative;
 	}
@@ -2865,10 +2865,10 @@ input, select, textarea {
 
 	@-moz-keyframes gallery-modal-spinner {
 		0% {
-			-moz-transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			-ms-transform: rotate(0deg);
-			transform: rotate(0deg);
+			-moz-transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
 		}
 
 		100% {
